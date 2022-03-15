@@ -3,12 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NovyComponentComponent } from './novy-component/novy-component.component';
+import { HomeComponent } from './pages/home/home.component';
+import { CanvasComponent } from './components/canvas/canvas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NovyComponentComponent
+    HomeComponent,
+    CanvasComponent
   ],
   imports: [
     BrowserModule,
